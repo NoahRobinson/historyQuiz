@@ -13,25 +13,39 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "What does HTML stand for?",
-        imgSrc : "img/html.png",
-        choiceA : "Correct",
-        choiceB : "Wrong",
-        choiceC : "Wrong",
+        question : "Hercules is the son of which God?",
+        imgSrc : "img/Statues.jpg",
+        choiceA : "Zeus",
+        choiceB : "Poseidon",
+        choiceC : "Hermes",
         correct : "A"
     },{
-        question : "What does CSS stand for?",
-        imgSrc : "img/css.png",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        choiceC : "Wrong",
+        question : "As a baby, Hercules killed what animal with his bare hands?",
+        imgSrc : "img/Baby.jpg",
+        choiceA : "A lion",
+        choiceB : "Two snakes",
+        choiceC : "A divine cow",
         correct : "B"
     },{
-        question : "What does JS stand for?",
-        imgSrc : "img/js.png",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
+        question : "How many labours was Hercules forced to endure?",
+        imgSrc : "img/Hydra.jpg",
+        choiceA : "10",
+        choiceB : "11",                              
+        choiceC : "12",
+        correct : "C"
+    },{
+        question : "Hercules wore a pelt from what animal that made him invincible?",
+        imgSrc : "img/pelt.jpg",
+        choiceA : "Lion",
+        choiceB : "Tiger",                              
+        choiceC : "Cheeta",
+        correct : "A"
+    },{
+        question : "How did Hercules die?",
+        imgSrc : "img/hercules.jpg",
+        choiceA : "By sword",
+        choiceB : "By thirst",                              
+        choiceC : "By poison",
         correct : "C"
     }
 ];
